@@ -1,0 +1,154 @@
+body {
+  height : 100%;
+}
+
+h1 {
+  /*
+  background: -webkit-gradient(linear, left top, left bottom, 
+  color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,0)));
+  */
+  background : rgba(30, 87, 153, 0.6);
+  padding-left : 1%;
+  margin-right : 40%;
+  font-size : 2.5em;
+  -webkit-box-shadow : 10px 10px 5px #888;
+  -moz-box-shadow : 10px 10px 5px #888;
+  -ms-box-shadow : 10px 10px 5px #888;
+  -o-box-shadow : 10px 10px 5px #888;
+  box-shadow : 10px 10px 5px #888;
+}
+
+h2 {
+  /*
+  background: -webkit-gradient(linear, left top, left bottom, 
+  color-stop(0%,#ebf1f6), color-stop(50%,#abd3ee), 
+  color-stop(51%,#89c3eb), color-stop(100%,#d5ebfb));
+  */
+  background : rgba(19, 155, 236, 0.6);
+  padding-left : 1%;
+  margin-right : 68%;
+  margin-left : 2%;
+  font-size : 1.8em;
+  -webkit-box-shadow : 10px 10px 5px #888;
+  -moz-box-shadow : 10px 10px 5px #888;
+  -ms-box-shadow : 10px 10px 5px #888;
+  -o-box-shadow : 10px 10px 5px #888;
+  box-shadow : 10px 10px 5px #888;
+}
+
+h3 {
+  margin : 5px;
+  font-size : 1.3em;
+}
+
+p {
+}
+
+a {
+  text-decoration : none;
+  font-family : sans-serif;
+}
+
+a:hover {
+  cursor : pointer;
+  -webkit-box-shadow : 2px 2px 2px #888;
+  -moz-box-shadow : 2px 2px 2px #888;
+  -ms-box-shadow : 2px 2px 2px #888;
+  -o-box-shadow : 2px 2px 2px #888;
+  box-shadow : 2px 2px 2px #888;
+}
+
+b:hover {
+}
+
+header {
+}
+
+article {
+  color : gray;
+  /* background : -webkit-gradient(linear, left top, right top, from(#FFFFFC), to(#CCFFFF)); */
+  background : rgba(3, 252, 147, 0.1);
+  padding : 5px;
+  margin : 2% 25% 2% 5%;
+}
+
+footer {
+  font-size : 0.7em;
+}
+
+hr {
+  size 1%;
+  width : 100%;
+}
+
+img {
+  -moz-user-select : none;
+  -webkit-user-select : none;
+  -ms-user-select : none
+  -o-user-select : none
+  user-select : none;
+}
+
+.mainFrame img {
+  padding-left : 3%;
+  max-width : 10%;
+  max-height : 10%;
+}
+
+.mainFrame img:hover {
+  cursor : pointer;
+}
+
+.button {
+  background : -webkit-gradient(linear, left top, right top, from(white), to(gray));
+  background : -moz-gradient(linear, left top, right top, from(white), to(gray));
+  background : -ms-gradient(linear, left top, right top, from(white), to(gray));
+  background : -o-gradient(linear, left top, right top, from(white), to(gray));
+  background : gradient(linear, left top, right top, from(white), to(gray));
+}
+
+.topFrame {
+  display : none;
+  position : fixed;
+  z-index : 1;
+  top : 1%;
+  height : 5%;
+  width : 100%;
+}
+
+.menuFrame {
+  display : none;
+  position : fixed;
+  float : left;
+  top : 8%;
+  width : 10%;
+}
+
+.mainFrame {
+  width : 70%;
+}
+
+.bottomFrame {
+  clear : left;
+
+  display : none;
+  position : fixed;
+  bottom : 3%;
+  width : 17%;
+}
+
+#topLink {
+  position : fixed;
+  display : none;
+  float : right;
+  top : 45%;
+  right : 1%;
+}
+
+#clock {
+}
+
+.fb-like{
+  height : 20px;
+  overflow : hidden;
+}
