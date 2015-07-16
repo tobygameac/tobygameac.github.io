@@ -29,14 +29,6 @@ function hideAllImages() {
   }
 }
 
-function hide(id) {
-  if ($("#" + id).css("display") == "none") {
-    $("#" + id).fadeIn(250);
-  } else {
-    $("#" + id).fadeOut(250);
-  }
-}
-
 function imageEventsHandler() {
   $("img").click(function() {
     var imgSrc = $(this).attr("src");
