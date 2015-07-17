@@ -165,7 +165,7 @@ function menuOptionHoverEventsHandler() {
 }
 
 function hashHandler() {
-  $(window).load(function() {
+  $(window).ready(function() {
     allPages = window.document.getElementsByClassName("mainFrame");
     allElements = window.document.getElementsByClassName("*");
     isLoading = false;
